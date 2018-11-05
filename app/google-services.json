@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "524408978043",
+    "firebase_url": "https://tagd-74b98.firebaseio.com",
+    "project_id": "tagd-74b98",
+    "storage_bucket": "tagd-74b98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524408978043:android:350f93f4aaf3c08d",
+        "android_client_info": {
+          "package_name": "com.tagd.tagd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524408978043-emi6obs0cvv6vvvslqnp619m890fbfmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpK0zfNHMmw7WbBQjkVI5WwxC5U70urUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
