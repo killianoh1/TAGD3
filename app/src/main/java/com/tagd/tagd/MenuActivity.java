@@ -8,34 +8,34 @@ import android.widget.Button;
 
 public class MenuActivity extends AppCompatActivity {
 
-    private Button accountBtn, startGameBtn, qrCodeBtn;
+    private Button createGameBtn, joinGameBtn, currentGameBtn;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        accountBtn.setOnClickListener(new View.OnClickListener() {
+        createGameBtn = (Button) findViewById(R.id.createGameBtn);
+        joinGameBtn = (Button) findViewById(R.id.joinGameBtn);
+        currentGameBtn = (Button) findViewById(R.id.currentGameBtn);
+
+
+        createGameBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, MainActivity.class));
+                startActivity(new Intent(MenuActivity.this, CreateGameActivity.class));
             }
         });
 
-
-        startGameBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, StartGameActivity.class));
-            }
-        });
-
-        qrCodeBtn.setOnClickListener(new View.OnClickListener() {
+        currentGameBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuActivity.this, QRCodeActivity.class));
             }
         });
+
 
 
     }

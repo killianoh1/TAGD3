@@ -21,9 +21,11 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".AccountActivity.SignupActivity" />
         <activity android:name=".AccountActivity.ResetPasswordActivity" />
-        <activity android:name=".MenuActivity" />
         <activity android:name=".StartGameActivity" />
-        <activity android:name=".QRCodeActivity"></activity>
+        <activity android:name=".QRCodeActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".CreateGameActivity" />
+        <activity android:name=".CurrentGameActivity"></activity>
     </application>
 
 </manifest>

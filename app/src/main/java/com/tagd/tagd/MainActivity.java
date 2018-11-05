@@ -22,7 +22,7 @@ import com.tagd.tagd.AccountActivity.SignupActivity;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnChangePassword, btnRemoveUser,
-            changePassword, remove, signOut,qrCodeBtn;
+            changePassword, remove, signOut,menuBtn;
     private TextView email;
     private EditText oldEmail, password, newPassword;
     private ProgressBar progressBar;
@@ -33,12 +33,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //get firebase auth instance
 
-        qrCodeBtn =(Button) findViewById(R.id.qrCodeBtn);
 
-        qrCodeBtn.setOnClickListener(new View.OnClickListener() {
+        menuBtn = (Button) findViewById(R.id.menuBtn);
+
+
+
+
+        menuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, QRCodeActivity.class));
+                startActivity(new Intent(MainActivity.this, MenuActivity.class));
             }
         });
 
