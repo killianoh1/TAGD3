@@ -1,5 +1,6 @@
 package com.tagd.tagd;
 
+//code reference https://www.youtube.com/watch?v=Fe7F4Jx7rwo
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

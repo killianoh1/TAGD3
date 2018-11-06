@@ -1,5 +1,6 @@
 package com.tagd.tagd;
 
+//code reference https://www.youtube.com/watch?v=VFS-wfz9Nb4
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.annotation.NonNull;
